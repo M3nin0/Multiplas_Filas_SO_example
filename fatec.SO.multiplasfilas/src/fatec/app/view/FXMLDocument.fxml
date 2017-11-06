@@ -84,9 +84,10 @@
                   <Font size="37.0" />
                </font>
             </Text>
-            <Button fx:id="addSistema" layoutY="89.0" mnemonicParsing="false" onAction="#addProcessoSistema" prefHeight="37.0" prefWidth="213.0" style="-fx-background-color: #e0ca3c;" text="Adicionar Processo Sistema" />
-            <Button fx:id="addInterativo" layoutY="145.0" mnemonicParsing="false" onAction="#addProcessoInterativo" prefHeight="37.0" prefWidth="213.0" style="-fx-background-color: #e0ca3c;" text="Adicionar Processo Interativo" />
-            <Button fx:id="addBatch" layoutY="200.0" mnemonicParsing="false" onAction="#addProcessoBatch" prefHeight="37.0" prefWidth="213.0" style="-fx-background-color: #e0ca3c;" text="Adicionar Processo Batch" />
+            <Button fx:id="addSistema" layoutY="62.0" mnemonicParsing="false" onAction="#addProcessoSistema" prefHeight="37.0" prefWidth="213.0" style="-fx-background-color: #e0ca3c;" text="Adicionar Processo Sistema" />
+            <Button fx:id="addInterativo" layoutY="118.0" mnemonicParsing="false" onAction="#addProcessoInterativo" prefHeight="37.0" prefWidth="213.0" style="-fx-background-color: #e0ca3c;" text="Adicionar Processo Interativo" />
+            <Button fx:id="addBatch" layoutY="173.0" mnemonicParsing="false" onAction="#addProcessoBatch" prefHeight="37.0" prefWidth="213.0" style="-fx-background-color: #e0ca3c;" text="Adicionar Processo Batch" />
+            <Button fx:id="atualizar" layoutY="224.0" mnemonicParsing="false" onAction="#atualizar" prefHeight="48.0" prefWidth="213.0" style="-fx-background-color: #e0ca3c;" text="ATUALIZAR" />
          </children>
       </Pane>
       <Line fx:id="syLine01" endX="72.0" layoutX="862.0" layoutY="183.0" startX="-102.0" stroke="#79ff75" strokeMiterLimit="8.0" strokeWidth="4.0" style="-fx-stroke: white;" />

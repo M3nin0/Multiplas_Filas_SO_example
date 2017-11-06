@@ -13,6 +13,7 @@ public class Processo implements Comparable{
         this.id = id;
         this.prioridade = prioridade;
         this.tempo = tempo;
+        this.finalizado = false;
     }
     public int getId(){
         return id;

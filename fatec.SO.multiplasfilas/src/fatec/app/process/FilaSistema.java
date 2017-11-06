@@ -11,9 +11,8 @@ import javax.swing.JOptionPane;
 public class FilaSistema extends Fila implements Escalonamento, Runnable{
      
     // Fila de sistema tem prioridade 5
-    
     public FilaSistema(){
-        this.setPrioridade(5); 
+        setPrioridade(5); 
     }
     
     @Override
@@ -39,5 +38,4 @@ public class FilaSistema extends Fila implements Escalonamento, Runnable{
             }
         }
     }
-
 }
